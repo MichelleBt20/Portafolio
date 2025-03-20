@@ -1,0 +1,68 @@
+{
+    "name": "Michelle Betancurt",
+    "country": "Colombia",
+    "description": "Soy una desarrolladora junior con formación en Tecnico de Software del SENA. Me gusta el aprendizaje continuo y la aplicación de mis habilidades técnicas para crear soluciones web eficientes.",
+    "skills": {
+        "frontend": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "TypeScript",
+            "React"
+           
+        ],
+        "backend": [
+            "Node.js",
+            "Express",
+            "MySQL"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Netlify",
+            "Azure",
+            "Figma",
+            "Canva",
+            "Notion",
+            "Trello",
+            "Desarrollo ágil",
+            "Scrum"
+        ],
+        "englishLevel": "A2 (Básico)",
+        "socialSkills": [
+            "Comunicación efectiva",
+            "Honestidad",
+            "Amabilidad",
+            "Sinceridad",
+            "Respeto",
+            "Trabajo en equipo",
+            "Empatía",
+            "Colaboración"
+        ]
+    },
+    "experience": {
+        "projects": [
+            {
+                "name": "Portafolio Personal",
+                "description": "Desarrollo de un portafolio web personal"
+            }
+        ],
+        "education": [
+            {
+                "title": "Tecnico en desarrollo de software",
+                "institution": "SENA",
+                "duration": "2022 - 2023"
+            },
+            {
+                "title": "Tecnólogo en analisis y desarrolo de software ",
+                "institution": "SENA",
+                "duration": "2024 - 2025"
+            }
+        ]
+    },
+    "contact": {
+        "email": "michellebetancurt1485@gmail.com",
+        "github": "MichelleBt20",
+        "phoneNumber": "320 2012397"
+    }
+}
