@@ -22,14 +22,6 @@ export const Skills = () => {
                                     </li>
                                 ))}
                             </ul>
-                        </div>
-                    </div>
-
-                    <div
-                        className="relative bg-gradient-to-r from-[#3B82F6] to-[#EC4899] rounded-lg shadow-lg overflow-hidden group"
-                    >
-                        <div className="absolute inset-0 transition-all duration-300"></div>
-                        <div className="relative p-6 text-black">
                             <h3 className="text-2xl font-semibold mb-4">Backend</h3>
                             <ul className="list-disc list-inside">
                                 {info.skills.backend.map((skill, index) => (
@@ -56,6 +48,10 @@ export const Skills = () => {
                         </div>
                     </div>
                 </div>
+                <div className="bg-gradient-to-r from-[#3B82F6] to-[#EC4899] rounded-lg p-6 text-black">
+                    <h3 className="text-2xl font-semibold mb-4">Nivel de Inglés</h3>
+                    <p className="text-lg">{info.skills.englishLevel}</p>
+                </div>
 
                 <div className="bg-gradient-to-r from-[#3B82F6] to-[#EC4899] rounded-lg p-6 ">
                     <h3 className="text-2xl font-semibold mb-4 text-black">Habilidades Sociales</h3>
@@ -69,11 +65,7 @@ export const Skills = () => {
                             </div>
                         ))}
                     </div>
-                </div>
-
-                <div className="bg-gradient-to-r from-[#3B82F6] to-[#EC4899] rounded-lg p-6 text-black">
-                    <h3 className="text-2xl font-semibold mb-4">Nivel de Inglés</h3>
-                    <p className="text-lg">{info.skills.englishLevel}</p>
+                    
                 </div>
             </div>
         </section>
